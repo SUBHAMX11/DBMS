@@ -6,8 +6,7 @@
 }
 
 .row__posters::-webkit-scrollbar {
-    display: none;
-    
+  display: none;
 }
 
 .row__poster {
@@ -20,4 +19,17 @@
 
 .row__poster:hover {
   transform: scale(1.08);
+}
+
+.row__posterLarge {
+  max-height: 250px;
+}
+
+.row__posterLarge:hover {
+  transform: scale(1.1);
+}
+
+.row {
+  color: white;
+  margin-left: 20px;
 }
